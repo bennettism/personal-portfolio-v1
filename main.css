@@ -1,0 +1,389 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5F8;
+}
+
+/* NAV BAR */
+
+.navbar-item a img {
+    width: 75px;
+}
+
+.navbar-item a:hover {
+    color: #1F282E;
+    transition: .4s;
+}
+
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler {
+    border: transparent;
+}
+
+.navbar-toggler span {
+    width: 25px;
+    color: #A71D31;
+}
+
+.navbar-link {
+    padding: 20px;
+    color: #A71D31;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-link:hover {
+    color: #1F282E;
+    transition: .4s;
+    cursor: pointer;
+}
+
+/* NAV BAR END */
+
+/* HERO INTRO */
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    color: #1F282E;
+    padding: 30px 50px;
+}
+
+.body-content h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 4em;
+    line-height: 1em;
+    word-break: break-word;
+    margin-bottom: 1.5rem;
+}
+
+.body-content p {
+    width: 80%;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    word-break: break-word;
+    margin-bottom: 1.5rem;
+}
+
+.body-content p span {
+    font-size: .65em;
+    font-style: italic;
+}
+
+/* Body Hero Image */
+
+.body-content img {
+    padding-block: 30px;
+    width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+/* Download Resume Button */
+
+.body-content a {
+    text-decoration: none;
+    font-family: 'Martian Mono', sans-serif;
+    font-family: 300;
+    font-size: 1em;
+    color: #F3F5F8;
+    background-color: #1F282E;
+    border-radius: 20px;
+    padding: 15px 40px;
+}
+
+.body-content a:hover {
+    background-color: #F3F5F8;
+    color: #A71D31;
+    border: 1px solid #A71D31;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+/* HERO INTRO END */
+
+/* BODY INTRO START */
+
+.body-main-intro {
+    background-color: #A71D31;
+}
+
+.body-main-content {
+    padding-block: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+.body-main-content {
+    margin-bottom: 1.5em;    
+    text-align: center;
+}
+
+.body-main-content h1 {
+    color: #F3F5F8;
+    font-family: 'Bungee', cursive;
+    letter-spacing: .15em;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.body-main-content p {
+    color: #F3F5F8;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.bodymain-toolkits h2 {
+    color: #F3F5F8;
+    font-family: 'Bungee', cursive;
+    letter-spacing: .15em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.body-main-toolkits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+.body-main-toolkits .toolkit-item {
+    width: 150px;
+    text-align: center;
+}
+.body-main-toolkits .toolkit-item i {
+    color: #F3F5F8;
+    font-size: 3em;
+    text-align: center;
+}
+.body-main-toolkits .toolkit-item p {
+    color: #F3F5F8;
+    font-family: 'Martian Mono', sans-serif;
+    font-size: .75em;
+    text-align: center;
+}
+
+/* BODY INTRO END */
+
+.myprojects-main {
+    padding: 50px;
+}
+
+.myproject-body h2 {
+    color: #1F282E;
+    font-family: 'Bungee', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1em;
+}
+.myproject-body p {
+    color: #1F282E;
+    font-family: 'Martian Mono', sans-serif;
+    font-size: .85rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.myproject-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.myproject-cards {
+    width: 30%;
+    text-align: center;
+}
+.myproject-cards p {
+    font-size: .75em;
+    line-height: 1.5em;
+}
+
+.myproject-cards ion-icon {
+    color: #1F282E;
+    font-size: 1.5rem;
+    padding-inline: 1em;
+}
+
+.myproject-cards img {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .myproject-cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-inline: auto;
+        width: 40%;        
+        gap: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .myproject-cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-inline: auto;
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+hr {
+    width: 90%;
+    background-color:#A71D31;
+    border: transparent;
+    border-radius: 5px;
+    height: 3px;
+    margin-inline: auto;
+}
+
+/* CONTACT FORM START */
+
+.contact-body {
+    display: flex;
+    width: 80%;
+    padding-block: 50px;
+    margin-inline: auto;
+    gap: 15px;
+}
+
+.contact-text {
+    width: 40%;
+}
+
+.contact-text h2 {
+    font-family: 'Bungee', cursive;
+    color: #1F282E; 
+    line-height: 1em;
+    font-size: 2em;
+    margin-bottom: 1.5rem;
+}
+
+.contact-text p {
+    font-family: 'Martian Mono', sans-serif;
+    color: #1F282E; 
+    font-size: .85em;
+    margin-bottom: 1rem;
+}
+
+.contact-text-icons {    
+    text-align: center;
+}
+
+.contact-text-icons a {
+    font-size: 2rem;
+    color: #1F282E;    
+    padding-inline: 1rem;
+}
+
+.contact-form {
+    width: 60%;
+    line-height: 1em;
+}
+
+.contact-form input {
+    color: #1F282E; 
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+    border: 2px solid #1F282E;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+.contact-form textarea {
+    color: #1F282E; 
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+    border: 2px solid #1F282E;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    resize: none;
+    margin-bottom: 1rem;
+}
+.contact-form button {
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+    border: 2px solid #1F282E;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    color: #F3F5F8;
+    background-color: #1F282E;
+}
+
+@media (max-width:600px) {
+    .contact-body {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+        line-height: 1em;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}
+
+/* CONTACT FORM END */
+
+/* FOOTER START */
+
+.footer-main {
+    background-color: #A71D31;
+    color: #F3F5F8;
+    padding-block: 10px;
+    text-align: center;
+    font-family: 'Martian Mono', sans-serif;
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* FOOTER END */
